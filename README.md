@@ -1,4 +1,4 @@
-# Glyph-Hop 🕹️
+# Glyph-Hop 
 
 > An ultra-fast, flicker-free arcade obstacle-dodging game crafted for the upcoming **S3 Lucid** (ESP32-S3) development board.
 
@@ -10,13 +10,13 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Glyph-Hop** is a high-performance arcade side-scroller developed specifically for the next-generation **S3 Lucid** board. Leveraging the ESP32-S3 dual-core processor and an onboard 160×80 color TFT (ST7735) display, Glyph-Hop brings responsive retro gameplay with custom physics, procedural pipe generation, and zero-flicker delta rendering.
 
-### 🎮 Gameplay Video Preview
+###  Gameplay Video Preview
 
-🎬 **[Watch 2-Second Live Gameplay Preview](https://files.pcbcupid.com/Glyph-Hop/Game-preview.mp4)**
+ **[Watch 2-Second Live Gameplay Preview](https://files.pcbcupid.com/Glyph-Hop/Game-preview.mp4)**
 
 <div align="center">
   <video src="https://files.pcbcupid.com/Glyph-Hop/Game-preview.mp4" width="600" controls autoplay loop muted>
@@ -26,7 +26,7 @@
 
 ---
 
-## 📸 Media & Hardware Showcase
+##  Media & Hardware Showcase
 
 ### S3 Lucid Hardware
 The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 with a built-in 160×80 Mini-TFT display and a three-button tactile control layout.
@@ -46,7 +46,7 @@ The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 wi
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 
 - **Silky 50 FPS Physics Engine:** Hard-locked 20ms frame cycle with smooth gravity, flap impulsing, and accurate bounding-box collision detection.
 - **Zero-Flicker Delta Slice Rendering:** Erases only trailing pixel columns and paints new leading edge slices across SPI instead of clearing entire frames or drawing solid rectangles.
@@ -61,7 +61,7 @@ The upcoming **S3 Lucid** board combines the processing power of the ESP32-S3 wi
 
 ---
 
-## 🕹️ Controls
+##  Controls
 
 The **S3 Lucid** board features three dedicated tactile pushbuttons wired with internal pull-ups (`INPUT_PULLUP`, active `LOW`):
 
@@ -73,7 +73,7 @@ The **S3 Lucid** board features three dedicated tactile pushbuttons wired with i
 
 ---
 
-## 🛠️ Hardware Pinout & Architecture
+##  Hardware Pinout & Architecture
 
 ### ST7735 Mini 160×80 SPI Display
 
@@ -88,7 +88,7 @@ The **S3 Lucid** board features three dedicated tactile pushbuttons wired with i
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites & Dependencies
 
@@ -143,7 +143,7 @@ This reduces SPI transaction traffic per frame by over **85%**, maintaining a st
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Glyph-Hop/
