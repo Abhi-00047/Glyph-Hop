@@ -14,11 +14,12 @@
 
 **Glyph-Hop** is a high-performance arcade side-scroller developed specifically for the next-generation **S3 Lucid** board. Leveraging the ESP32-S3 dual-core processor and an onboard 160×80 color TFT (ST7735) display, Glyph-Hop brings responsive retro gameplay with custom physics, procedural pipe generation, and zero-flicker delta rendering.
 
-### 🎮 Gameplay Preview
+### 🎮 Live Gameplay Preview
 
 <p align="center">
-  <video src="https://github.com/Abhi-00047/Glyph-Hop/raw/main/assets/Game-preview.mp4" controls autoplay loop muted width="600" style="max-width: 100%;">
-  </video>
+  <img src="assets/Game-preview.gif" alt="Glyph-Hop Live Gameplay Preview" width="600"/>
+  <br>
+  <sub>🎥 Video source: <a href="https://files.pcbcupid.com/Glyph-Hop/Game-preview.mp4">Game-preview.mp4</a></sub>
 </p>
 
 ---
@@ -145,6 +146,7 @@ This reduces SPI transaction traffic per frame by over **85%**, maintaining a st
 ```text
 Glyph-Hop/
 ├── assets/
+│   ├── Game-preview.gif   # Autoplaying looping gameplay preview
 │   └── Game-preview.mp4   # 2-second in-game preview video
 ├── Glyph-Hop.ino          # Main game sketch, physics loop, display driver, and POST
 └── README.md              # Project documentation, pinout guide, and visual showcase
